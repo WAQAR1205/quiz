@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js";></script>
+</head>
+<body onload="showquestion(0)">
+        <!-- <header>Quiz</header> -->
+        <div id="main">
+            
+            <center><header id="header">Quiz</header>
+                <br>
+            
+                <p>
+                    
+                    <span id="span"></span> <br>
+            </center>
+            
+                    <ul id="ul">
+                        <li>
+                            <input type="radio" name="opt1" id="opt1" class="check">
+                            <label for="opt1" class="Option"></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="opt1" id="opt2" class="check">
+                            <label for="opt1" class="Option"></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="opt1" id="opt3" class="check">
+                            <label for="opt1" class="Option"></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="opt1" id="opt4" class="check">
+                            <label for="opt1" class="Option"></label>
+                        </li>
+                    </ul>
+                </p>
+            
+            <center>
+                <footer id="footer">
+                    <br>
+                    <button id="next" onclick="next()">NEXT</button>
+                </footer>
+            </center>
+        </div>
+        
+</body>
+    <script src="app.js"></script>
+</html>

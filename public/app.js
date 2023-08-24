@@ -167,4 +167,3 @@ function next() {
         alert("Score is ==> " + scr)
 
     }
-}
